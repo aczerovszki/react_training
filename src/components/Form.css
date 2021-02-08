@@ -1,0 +1,75 @@
+.card {
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+  border-radius: 2rem !important;
+  background-color: #ecf0f3 !important;
+  border: none !important;
+}
+
+.form-group {
+  margin-bottom: 2rem !important;
+  margin-top: 2rem;
+}
+
+.form-control {
+  border: none !important;
+  border-radius: 25px !important;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+  padding: 20px 10px 20px 35px !important;
+  color: #555 !important;
+}
+
+.form__btn {
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+  background-color: #24cfaa !important;
+  border-radius: 2rem !important;
+  border: none !important;
+}
+
+.form__btn:hover {
+  background: #2fdbb6 !important;
+}
+
+.form__btn:active {
+  background: #1da88a !important;
+}
+
+.svg-icon {
+  height: 22px;
+  margin: 0 0 -62px 10px;
+}
+
+.svg-icon-pw {
+  margin: 0 0 -61px 10px !important;
+}
+
+.page-link {
+  background-color: #000000 !important;
+  border: 1px solid #000000 !important;
+  color: white !important;
+}
+
+.page-item.active > .page-link {
+  color: #007bff !important;
+}
+
+.page-link:focus{
+  box-shadow: none !important;
+  outline: none;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #999;
+}
+
+.alert {
+  border-radius: 2rem !important;
+  text-align: center;
+}
+
+.recaptcha__container {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem;
+}
